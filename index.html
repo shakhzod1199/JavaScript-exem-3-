@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/styleTable.css">
+    <link rel="stylesheet" href="style/styleMobile.css">
+    <title>SNAP</title>
+</head>
+<body>
+    <div class="menu">
+        <header style="position: relative;">
+            <div class="nav">
+                <div class="logo"><img src="./img/logo.svg" alt=""></div>
+                <ul>
+                    <li style="position: relative;" >
+                        <a href="#" class="features">Features
+                            <img src="./img/icon-arrow-down.svg" alt="" id="arrow">
+                            <img src="./img/icon-arrow-up.svg" alt="" id="arrow2" class="arrow-close">
+                        </a>
+                        <div class="features-menu" id="featureMenu" onclick="myFunction()">
+                            <p style="margin:2px 0px;"><img src="./img/icon-todo.svg" alt=""> Todo list</p>
+                            <p style="margin:2px 0px;"><img src="./img/icon-calendar.svg" alt="">Calendar</p>
+                            <p style="margin:2px 0px;"><img src="./img/icon-reminders.svg" alt="">Reminders</p>
+                            <p style="margin:2px 0px;"><img src="./img/icon-planning.svg" alt="">Planning</p>
+                        </div>
+                    </li>
+                    <li style="position: relative;">
+                        <a href="#" class="company">Company
+                            <img src="./img/icon-arrow-down.svg" alt="" id="arrowCompany">
+                            <img src="./img/icon-arrow-up.svg" alt="" id="arrowCompany2" class="arrow-close">
+                        </a>
+                        <div class="company-menu" id="companyMenu">
+                            <p style="margin:2px 0px;">History</p>
+                            <p style="margin:2px 0px;">Our Team</p>
+                            <p style="margin:2px 0px;">Blog</p>
+                        </div>
+                    </li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+            <div class="sign">
+                <button class="login">Login</button>
+                <button class="register">Register</button>
+            </div>
+            <img src="img/icon-menu.svg" alt="" class="openTogle">
+            <div class="togleMenu showTogleMenu">
+                <img src="img/icon-close-menu.svg" alt="" class="closeTogle closeTogleIcon">
+                <div class="togleMenuNav">
+                    <ul>
+                        <li style="position: relative;" >
+                            <a href="#" class="features mobileFeatureMenu">Features
+                                <img src="./img/icon-arrow-down.svg" alt="" id="arrow3">
+                                <img src="./img/icon-arrow-up.svg" alt="" id="arrow4" class="mobileClose">
+                            </a>
+                            <div class="features-menu  mobFutMenu" id="featureMenu2" >
+                                <p style="margin:2px 0px;"><img src="./img/icon-todo.svg" alt=""> Todo list</p>
+                                <p style="margin:2px 0px;"><img src="./img/icon-calendar.svg" alt="">Calendar</p>
+                                <p style="margin:2px 0px;"><img src="./img/icon-reminders.svg" alt="">Reminders</p>
+                                <p style="margin:2px 0px;"><img src="./img/icon-planning.svg" alt="">Planning</p>
+                            </div>
+                        </li>
+                        <li style="position: relative;">
+                            <a href="#" class="company mobileCompanyMenu">Company
+                                <img src="./img/icon-arrow-down.svg" alt="" id="arrowCompany3">
+                                <img src="./img/icon-arrow-up.svg" alt="" id="arrowCompany4" class="mobileClose">
+                            </a>
+                            <div class="company-menu mobComMenu " id="companyMenu2">
+                                <p style="margin:2px 0px;">History</p>
+                                <p style="margin:2px 0px;">Our Team</p>
+                                <p style="margin:2px 0px;">Blog</p>
+                            </div>
+                        </li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                    <div class="togleMenuSign">
+                        <button class="login">Login</button>
+                        <button class="register">Register</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="mainCenter">
+                <div class="mediaMax600">
+                    <div class="mediaMax600Banner">
+                        <img src="img/image-hero-mobile.png" alt="">
+                    </div>
+                </div>
+                <div class="centerText">
+                    <h1>Make remote work</h1>
+                    <p>Get your team in sync, no matter your location. 
+                        Streamline processes, create team rituals, 
+                        and watch productivity soar.
+                    </p>
+                    <button>Learn more</button>
+                    <div class="partner">
+                        <img src="img/client-databiz.svg" alt="">
+                        <img src="img/client-audiophile.svg" alt="">
+                        <img src="img/client-meet.svg" alt="">
+                        <img src="img/client-maker.svg" alt="">
+                    </div>
+                </div>
+                <div class="centerBanner">
+                    <img src="img/image-hero-desktop.png" alt="">
+                </div>
+            </div>
+        </main>
+        <div class="togleMenuOver closeTogleIcon"></div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+@media only screen and (max-width: 992px) and (min-width: 769px)  {
+   
+    .nav ul{
+        list-style: none;
+        margin: 0px 40px;
+    }
+    .nav ul li {
+        list-style: none;
+        margin: 0px 10px;
+    }
+    .nav ul li a{
+        font-size: 14px;
+    }
+    header .register button{
+        padding: 8px 15px;
+    }
+    header .sign button{
+        background:none;
+        padding: 10px 15px;
+        border-radius: 10px;
+        border:1px solid   rgb(134, 134, 134);;
+        color: rgb(134, 134, 134);
+        cursor: pointer;
+    }
+    main .mainCenter {
+        height: 560px;
+    }
+    main .mainCenter .centerText h1{
+        font-size: 40px;
+    }
+    main .mainCenter .centerText{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding: 40px 20px 50px;
+        justify-content:flex-end;
+    }
+    main .mainCenter .centerText p{
+        margin: 40px 0px 50px;
+        color: rgb(134, 134, 134);
+    }
+    main .mainCenter .centerText button{
+        margin-bottom:  100px;
+        width: 120px;
+        padding: 12px 0px;
+        background-color: #000;
+        color: rgb(255, 255, 255);
+        border-radius:10px;
+        font-size: 14px;
+        border:1px solid  rgb(85, 85, 85);
+    }
+    main .mainCenter .centerText .partner img{
+       width: 20%;
+    }
+    main .mainCenter .centerBanner{
+        width: 60%;
+        padding: 70px 0px 70px 20px;
+    }
+    header ul li .features-menu{
+        background-color: #fff;
+        z-index: 20;
+        position: absolute;
+        display: none;
+        width: 150px;
+        height: auto;
+        right: 0;
+        top: 40px;
+        overflow: hidden;
+        border-radius:10px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+    header ul li .features-menu p, header ul li .company-menu p{
+        color: rgb(131, 131, 131);
+        font-size: 14px;
+    }
+    header ul li .features-menu p:hover, header ul li .company-menu p:hover {
+        background-color:transparent;
+        color:#000;
+    }
+    header.company-menu{
+        background-color: #fff;
+        z-index: 20;
+        position: absolute;
+        display: none;
+        width: 100px;
+        height: auto;
+        left: 0;
+        top: 40px;
+        padding: 15px 0px;
+        border-radius:10px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .dropdown{
+        z-index: 20;
+        display: grid !important;
+    }
+ }

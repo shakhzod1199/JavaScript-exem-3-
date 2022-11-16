@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    z-index: 10;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.nav .logo img{
+    margin-top: 10px;
+}
+.nav ul{
+    display: flex;
+    margin-left: 70px;
+}
+.nav ul li{
+    list-style: none;
+    margin: 0px 20px;
+}
+.nav ul li a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 0px;
+    color: rgb(134, 134, 134);
+}
+.nav ul li a img{
+    margin-left: 5px;
+}
+.nav ul li a:hover, .nav ul li a img:hover{
+    color: #000;
+}
+.arrow-close{
+    display: none;
+}
+header .sign button{
+    background:none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border:1px solid   rgb(134, 134, 134);;
+    color: rgb(134, 134, 134);
+    cursor: pointer;
+}
+header .sign .login{
+    border:none;
+}
+header .sign button:hover{
+    color:#000
+}
+header ul li .features-menu{
+    background-color: #fff;
+    z-index: 20;
+    position: absolute;
+    display: none;
+    width: 180px;
+    height: auto;
+    right: 0;
+    top: 40px;
+    padding: 15px 0px;
+    border-radius:10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+header ul li .company-menu{
+    background-color: #fff;
+    z-index: 20;
+    position: absolute;
+    display: none;
+    width: 150px;
+    height: auto;
+    left: 0;
+    top: 40px;
+    padding: 15px 0px;
+    border-radius:10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.dropdown{
+    z-index: 20;
+    display: grid !important;
+}
+.features-menu p, .company-menu p{
+    padding: 7px 25px;
+}
+.features-menu p:hover, .company-menu p:hover{
+    background-color: rgb(119, 119, 119);
+    color:#fff;
+    cursor: pointer;
+}
+.features-menu p img, .company-menu p img{
+   margin-right: 10px;
+}
+
+/* ---------------header section end  */
+/* ---------------main section start */
+main{
+    height: 700px;
+}
+main .mainCenter{
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content:space-between ;
+}
+main .mediaMax600{
+    display: none;
+}
+main .mainCenter .centerText h1{
+    font-size: 60px;
+}
+main .mainCenter .centerText{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 50px 70px 70px 50px;
+    justify-content:flex-end;
+}
+main .mainCenter .centerText p{
+    margin: 40px 0px 50px;
+    color: rgb(134, 134, 134);
+}
+main .mainCenter .centerText button{
+    margin-bottom:  120px;
+    width: 150px;
+    padding: 15px 0px;
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    border-radius:10px;
+    font-size: 16px;
+    border:1px solid  rgb(85, 85, 85);
+}
+main .mainCenter .centerText button:hover{
+    cursor: pointer;
+    color: #000;
+    background-color:#fff;
+    border:1px solid #000;
+}
+main .mainCenter .centerText .partner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .mainCenter .centerText .partner img{
+    width: 20%;
+ }
+
+main .mainCenter .centerBanner{
+    width: 50%;
+    padding: 70px 0px 70px 70px;
+}
+main .mainCenter .centerBanner img{
+    width: 100%;
+    height: 100%;
+}
+header .openTogle{
+    display: none;
+}
+.togleMenu{
+    width: 0;
+    display: none;
+}
+
+
+
+
+  
